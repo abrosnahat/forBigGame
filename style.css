@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.icon:after {
+    content: '\25BC';
+    color: #f7941e;
+    cursor: pointer;
+}
+
+.nav {
+    list-style: none;
+    border: 1px solid #ebeae7;
+    margin: 20px;
+    width: 210px;
+    padding: 20px;
+}
+
+.nav-title {
+    font-weight: 700;
+}
+
+.nav ul {
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #f7941e;
+}
+
+.nav a:hover {
+    font-weight: 700;
+}
+
+.toggle span {
+    transition: 0.5s;
+}
+
+.level-1 {
+    margin-top: 10px;
+}
+
+.level-2,
+.level-3,
+.level-4,
+.level-5  {
+    padding-left: 10px;
+    margin: 5px 0;
+    border-left: 1px solid #f7941e;
+}
+
+.level-2 li,
+.level-3 li,
+.level-4 li,
+.level-5  {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+}
